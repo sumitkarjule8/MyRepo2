@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subtraction</title>
+  <script>
+    function substractTwoNum(num1,num2){
+
+      var n1=parseFloat(num1);
+      var n2=parseFloat(num2);
+      document.getElementById("result").innerHTML="Subtraction is: "(n1)-(n2)
+
+
+    }
+  </script>
+</head>
+<body>
+  <h1>Subtraction</h1>
+  <div id="add">
+    <input type="number" name="num1" id="num1">
+    -
+    <input type="number" name="num2" id="num2">
+    <button onclick="substractTwoNum(num1.value,num2.value)">Subtract</button>
+  </div>
+ 
+  <div id="result">
+
+  </div>
+
+</body>
+</html>
